@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir='ltr'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="parent">
+        <header>
+            <div class="links">
+                <a href="#" class="logo-link">
+                    <img src="imgs/logo.png" alt="logo">
+                </a>
+                <a href="#">
+                    <i class="ri-home-7-line"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-hashtag"></i>
+                    <span>Explore</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-bell"></i>
+                    <span>Notification</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Message</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <span>Bookmarks</span>
+                </a>
+                <a href="#">
+                    <i class="ri-file-list-2-line"></i>
+                    <span>Lists</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="#">
+                    <i class="ri-more-line"></i>
+                    <span>More</span>
+                </a>
+                <button class="tweet-btn">
+                    Tweet
+                </button>
+            </div>
+            <div class="profile">
+                <div class="user-info">
+                    <img src="imgs/profile.png" alt="profile">
+                <div class="user-name">
+                    <p>Amal-Mousa</p>
+                    <a href="#">@amal.sattari</a>
+                </div>
+                </div>
+                <i class="ri-more-line"></i>
+            </div>
+        </header>
+        
+        <article>
+            <div class="article-header">
+                <p>Home</p>
+                <i class="ri-star-line"></i>
+            </div>
+            <section class="add-tweets">
+                <section class="form">
+                    <form action="" onsubmit="return false">
+                        <input type="text" name="add" id='tweeters-name' placeholder="Tweeter's name">
+                        <textarea name="add" id="add-tweets" placeholder="Whats happening?"></textarea>
+                        <button class="add-tweet-btn">Tweet</button>
+                    </form>
+                </section>
+            </section>
+            <section class="tweets">
+                <div class="news-feed"></div>
+            </section>
+        </article>
+
+        <aside>
+            <div class="side-feed">
+                <div class="search">
+                    <input type="text" placeholder="search twitter">
+                </div>
+                <div class="trending">
+                    <h1 class="h1-title">What's happening</h1>
+                    <div class="trending-item">
+                        <div class="trending-item-category">
+                            <span>Technology .Trending</span>
+                            <i class="ri-more-fill"></i>
+                        </div>
+                        <p>#softwaredeveloper</p>
+                        <span>100k Tweets</span>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-item-category">
+                            <span>Technology .Trending</span>
+                            <i class="ri-more-fill"></i>
+                        </div>
+                        <p>#softwaredeveloper</p>
+                        <span>100k Tweets</span>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-item-category">
+                            <span>Technology .Trending</span>
+                            <i class="ri-more-fill"></i>
+                        </div>
+                        <p>#softwaredeveloper</p>
+                        <span>100k Tweets</span>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-item-category">
+                            <span>Technology .Trending</span>
+                            <i class="ri-more-fill"></i>
+                        </div>
+                        <p>#softwaredeveloper</p>
+                        <span>100k Tweets</span>
+                    </div>
+                    <div class="trending-item">
+                        <div class="trending-item-category">
+                            <span>Technology .Trending</span>
+                            <i class="ri-more-fill"></i>
+                        </div>
+                        <p>#softwaredeveloper</p>
+                        <span>100k Tweets</span>
+                    </div>
+                    <a href="#" class="show-more">
+                        Show more
+                    </a>
+                </div>
+                <div class="follow">
+                    <h1 class="h1-title">
+                        Who to follow
+                    </h1>
+                    <div class="follow-profile">
+                        <img class="tweet-img" src="imgs/profile.png" width="45px" height="45px">
+                        <div class="follow-details">
+                            <a href="#">
+                                Amal Mousa
+                            </a>
+                            <span>@amal.sattari <span id="follows">
+                                follow you
+                            </span>
+                        </div>
+                        <button class="tweet-btn">follow</button>
+                    </div>
+                    <div class="follow-profile">
+                        <img class="tweet-img" src="imgs/profile.png" width="45px" height="45px">
+                        <div class="follow-details">
+                            <a href="#">
+                                Amal Mousa
+                            </a>
+                            <span>@amal.sattari <span id="follows">
+                                follow you
+                            </span>
+                        </div>
+                        <button class="tweet-btn">follow</button>
+                    </div>
+                    <a href="#" class="show-more">
+                        Show more
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
